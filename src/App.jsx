@@ -3,7 +3,8 @@ import Table from './components/Table'
 
 const App = () => {
   return (
-    <div>
+    <div className='container'>
+      <h2>Spreadsheet View</h2>
       <Table/>
     </div>
   )
