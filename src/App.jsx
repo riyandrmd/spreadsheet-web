@@ -12,24 +12,21 @@ const App = () => {
         setData(e)
       })
   }, []);
-  const a = data.user;
-  console.log(a)
+  
   const PushData = () => {
     fetch(`databaseAPI`, {
       method: 'POST',
       mode: 'cors',
-      body: JSON.stringify(data.user),
+      body: JSON.stringify(data),
     });
   }
+
+  data && PushData();
 
   return (
     <div className='container'>
       <h2>Spreadsheet View</h2>
-      <Table />
-      {
-        data &&
-        <h1></h1>
-      }
+      <Table/>
     </div>
   )
 }
