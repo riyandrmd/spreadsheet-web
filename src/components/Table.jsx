@@ -3,8 +3,7 @@ import React from 'react'
 const Table = () => {
     return (
         <>
-           <iframe src="https://docs.google.com/spreadsheets/d/1XGmOLNXuJ5tUjIm5g-CM8ItX8uWK3CgRPxCImGaIjlQ/edit?usp=sharing?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-        </>
+            <iframe src="https://docs.google.com/spreadsheets/d/1A2MS3QDKvzFPdJZZSnbU7Tfyr-rSAAIHzucB80vDmBM/edit?usp=sharing?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>        </>
     )
 }
 
